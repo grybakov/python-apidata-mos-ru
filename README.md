@@ -25,5 +25,6 @@ Requirements
 ---------------
 
   - Python 3.6 or later.
-  -
+  - vcrpy 2.1.0
+  - pytest 5.1.2
   - Other requirements you can see in requirements.txt
