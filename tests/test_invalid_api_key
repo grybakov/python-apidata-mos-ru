@@ -1,0 +1,41 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://apidata.mos.ru/v1/datasets?api_key=d870b8ec9ae96da2f33493f85f01999f
+  response:
+    body:
+      string: ''
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '0'
+      Date:
+      - Tue, 01 Oct 2019 15:18:45 GMT
+      Expires:
+      - '-1'
+      Pragma:
+      - no-cache
+      Server:
+      - Microsoft-IIS/10.0
+      Strict-Transport-Security:
+      - max-age=300
+      X-AspNet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 403
+      message: 'Your api_key is not confirmed. Check this value in your account page:
+        https://apidata.mos.ru/Account/Manage'
+version: 1
