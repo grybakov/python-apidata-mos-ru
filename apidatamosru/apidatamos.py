@@ -3,7 +3,7 @@ import requests
 from .exceptions import APIDataMosError
 
 
-class APIDataMos(object):
+class ApiClient(object):
 
     def __init__(self, app_key, timeout=10):
 
