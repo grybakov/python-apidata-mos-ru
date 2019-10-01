@@ -1,16 +1,12 @@
-mos.ru API
-====================
+# mos.ru API
 
-A Python wrapper for the [mos.ru API](https://apidata.mos.ru/). It supports extracting datasets (list, metadata, geodata, icons and images, etc) from Moscow Government Open Data Portal API.
+A Python wrapper for the [mos.ru API](https://apidata.mos.ru/Docs). It supports extracting datasets (list, metadata, geodata, icons and images, etc) from Moscow Government Open Data Portal API.
 
-Installation
----------------
+## Installation
 
-Getting started
----------------
+## Getting started
 
-Usage
----------------
+## Usage
 
 ### Importing
 
@@ -21,10 +17,8 @@ Usage
 ### How To
 
 
-Requirements
----------------
+## Requirements
 
-  - Python 3.6 or later.
-  - vcrpy 2.1.0
-  - pytest 5.1.2
-  - Other requirements you can see in requirements.txt
+  - [requests](https://github.com/requests/requests)
+  - [vcrpy](https://github.com/kevin1024/vcrpy)
+  - other requirements you can see in requirements.txt

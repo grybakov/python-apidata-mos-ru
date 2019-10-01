@@ -17,10 +17,11 @@ class APIDataMos(object):
             raise TypeError('Timeout must be numeric.')
         self.timeout = timeout
 
-        self.session = requests.Session()
+        self.client = requests.Session()
 
-    def get_datasets_list(self):
+    def get_datasets_list(self, **kwargs):
 
+        url = ''
 
 
     def get_dataset_meta(self):
@@ -44,4 +45,15 @@ class APIDataMos(object):
     def get_geodata(self):
         pass
 
-    def _exe_request(self, ):
+    def close(self):
+        self.client.close()
+
+    def _request(self, endpoint, params=None):
+
+        response = self.client.get(endpoint)
+
+
+
+
+
+
