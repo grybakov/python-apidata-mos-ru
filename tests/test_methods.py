@@ -23,3 +23,4 @@ def test_invalid_api_key(api_key):
         response = client.get_datasets_list()
         assert (response.status_code == 403)
         # assert (response.json()['Items'])
+
