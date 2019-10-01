@@ -1,5 +1,5 @@
 class APIDataMosError(Exception):
-
+    """ Generic error class """
     def __init__(self, error_msg, error_code=None):
         self.error_code = error_code
         if error_code == 403:
