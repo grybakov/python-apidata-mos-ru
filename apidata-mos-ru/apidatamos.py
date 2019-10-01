@@ -20,40 +20,58 @@ class APIDataMos(object):
         self.client = requests.Session()
 
     def get_datasets_list(self, **kwargs):
+        endpoint = '{0}/{1}/datasets'.format(self.base_api_url, self.api_version)
+        return self._request(endpoint, params=kwargs)
 
-        url = ''
+    def get_dataset_meta(self, id):
+        endpoint = '{0}/{1}/datasets/{2}'.format(self.base_api_url, self.api_version, str(id))
+        return self._request(endpoint)
 
+    def get_dataset_count(self, id):
+        endpoint = '{0}/{1}/datasets/{2}/count'.format(self.base_api_url, self.api_version, str(id))
+        return self._request(endpoint)
 
-    def get_dataset_meta(self):
-        pass
+    def get_dataset_version(self, id):
+        endpoint = '{0}/{1}/datasets/{2}/version'.format(self.base_api_url, self.api_version, str(id))
+        return self._request(endpoint)
 
-    def get_dataset_count(self):
-        pass
+    def get_dataset_icons(self, id, size='m'):
+        # todo Пересечение
+        endpoint = '{0}/{1}/datasets/{2}/icon/{3}'.format(self.base_api_url, self.api_version, str(id), size)
+        return self._request(endpoint)
 
-    def get_dataset_version(self):
-        pass
+    def get_dataset_image(self, id, width=70):
+        endpoint = '{0}/{1}/datasets/{2}/image/{3}'.format(self.base_api_url, self.api_version, str(id), width)
+        return self._request(endpoint)
 
-    def get_dataset_icons(self):
-        pass
+    def get_dataset_marker(self, id):
+        endpoint = '{0}/{1}/datasets/{2}/marker'.format(self.base_api_url, self.api_version, str(id))
+        return self._request(endpoint)
 
-    def get_dataset_image(self):
-        pass
+    def get_dataset(self, id, **kwargs):
+        # todo Внимание: при запросе датасетов с количеством записей более 10000шт., в ответе будет передан статус 413
 
-    def get_dataset(self):
-        pass
+        endpoint = '{0}/{1}/datasets/{2}/rows'.format(self.base_api_url, self.api_version, str(id))
+        return self._request(endpoint, params=kwargs)
 
-    def get_geodata(self):
-        pass
+        # todo Проекция данных
+        # Для указанного метода доступна возможность проекции данных.
+        # Для ее использования необходимо формировать POST запрос с перечислением в теле запроса требуемых для вывода атрибутов.
+
+    def get_geodata(self, id, **kwargs):
+        # todo Внимание: при запросе датасетов с количеством записей более 10000шт., в ответе будет передан статус 413
+
+        endpoint = '{0}/{1}/datasets/{2}/features'.format(self.base_api_url, self.api_version, str(id))
+        return self._request(endpoint, params=kwargs)
+
+        # todo Проекция данных
+        # Для указанного метода доступна возможность проекции данных.
+        # Для ее использования необходимо формировать POST запрос с перечислением в теле запроса требуемых для вывода атрибутов.
 
     def close(self):
         self.client.close()
 
     def _request(self, endpoint, params=None):
 
-        response = self.client.get(endpoint)
-
-
-
-
-
+        return self.client.get(endpoint, params=params)
 
