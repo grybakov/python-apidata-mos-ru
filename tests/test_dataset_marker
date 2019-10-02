@@ -1,0 +1,54 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://apidata.mos.ru/v1/datasets/658/marker?api_key=7e5b3dd05fbfe77c66a8c356c45eea81
+  response:
+    body:
+      string: "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\"[]>\r\n<!--
+        Creator: CorelDRAW X7 -->\r\n<svg xmlns=\"http://www.w3.org/2000/svg\" xml:space=\"preserve\"
+        width=\"36px\" height=\"42px\" version=\"1.1\" style=\"shape-rendering:geometricPrecision;
+        text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd;
+        clip-rule:evenodd\" viewBox=\"0 0 34 42\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n
+        <defs>\r\n  <style type=\"text/css\">\r\n   <![CDATA[\r\n    .fil0 {fill:none}\r\n
+        \   .fil1 {fill:#858585}\r\n   ]]>\r\n  </style>\r\n </defs>\r\n <g id=\"\u0421\u043B\u043E\u0439_x0020_1\">\r\n
+        \ <metadata id=\"CorelCorpID_0Corel-Layer\" />\r\n     <path class=\"fil2\"
+        fill=\"#915aa3\" d=\"M29 5c7,7 7,17 0,24l0 0 0 0 -12 12 -12 -12 0 0c-7,-7
+        -7,-17 0,-24 7,-7 17,-7 24,0z\" />\r\n     <circle cx=\"17\" cy=\"17\" r=\"14\"
+        stroke-width=\"1\" stroke=\"white\" fill=\"none\" />\r\n     <image id=\"dsIcon\"
+        width=\"20\" height=\"20\" x=\"7\" y=\"6\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABkdJREFUeNrsW11II1cUTms0/jRN/McBJUXMolBMiSgLYqMoqOxSF2SL4EM2SCvSh9ItPosPhVVbfSjC7oNVSpUWYZEWhMIacWWhYqhSUTaCSQUT/CO60cT4w/ac7J0QpkmcCZnJKPeDw4yTO/fOfPecc885d1QoKCgoKCgoKCgobhXeS+LYaSBaEBVIBrmmjqOfc5BA2DnKJYgfxAdydZOIKe7p6TFYLJZPc3JymOzsbD1e1Gq1RqEdBQIBt9/vd+G5z+dzHx8fu+DoXVtbs4+NjdkXFhbs8JPrJmgps7W1NflWIqyvrz/FMWXPit1uH30rMXBM2ZvS5eXlm5SUFLWUY15dXXmVSuWHsiYGZzApqwxA1qbE0fI+EIMIYxhI3yHI3seEkyLBWH03kRiTBGOZbiIxWgnG0sZLjFQOCeOIIvKwy1I6Q5YUGK6KXHLLJuDDIIsbWyTJ2bMBnzw0JhIRUmuM0LEpMZQYSgwlhhJDiaHEUGIoMbeMGKnC8j65pAR8yx18mcOtjkKQD0AyI/yO2xS4XbFHzvkkdVInkQkfj+np6bmPlf2Tk5PXkYrNeH1nZ+f3gYGBDmhfzGcGReAgRfFuX0pNJjJ4TbTxImXGsYAERtEqLjFqAdrKvjBDRAeiJ4KlUWNdXZ1pfHz8CyLB/Sk4MqLVY+Lp9OjoqCo7O9sWqz+r1fp5Q0PDb5yfc4koWOJAW5nq6upgLQeOwRfWaDRMZmZm8JpardZzdh3mQSbAcsbn5uYe1tfX/xqPKfEhxqN4t5XKmxeQj+A5jmIRc3BwMJ+fn/+IFI1wW1U3Pz9vrqysvIe/c3Ylsa8Vcu4E+TeMhOA1GM/JdQH7+/u/5OXlmUTxMbOzsx0ej2eZhxU50OOD6d0ls85wRE1sfhjJxhvQL6H/QlPAc/RVy8vLQ9PT02Yc12KxlJN7C8LMSR3BtFgJmRfXBSTclJAUPC4uLk4VAQoKCgpBfcvZ32FmX8JhFSbkT3wBcMDloPJ3oF1ReD9LS0s2spfshJf2NTc3P4HL5vA2p6en9ouLCy+7Bx1a8sheNPfZWNNiAY9njGJeophSiG2Xy/XH5uamzel0hh7abDY/w1mCGXqs1+s7rttlxD4GBwdHR0ZGXkDXaP9tUizbCTel6+yH1SohKxdu0wKRejjVSbV/LcaqZIWDKdZMxBkn1MOtr+DWgBw15v3rGvT39z9C24/V5vz8/Echg4LG/IOrDDjZCoVMobyuATi4NniB79HRlZWVtSiVyv9FthMTEy8aGxtzwekVsctjJCDB29vb8+hMq6qqfFLsRsatYTxm9w0e7Xb7VHd391RNTU1abW1tQVpaWvATrpaWlilcZrOysvQOh2NqaGhoCgMyCPB8bJvd3V01rkigfSa49xt00BsbG3fKy8sxfnHI0ZQER74Q1drA2drPzs68+HdFRcWX3DaoGXt7eza2DS6jEZZQ9DEv0Rff2lWJBHdCYYDgTi/XVSmuWkoEYtoEPudzPn3LmhgsI8TKsNm8BPKcPvRHfLLv1tbW6hgTYRL4zqaklDnwRdicBgj6zuv1/hVmOh7imEfZNqurq0+4bfx+/ytYjX4eHh5+iLkQOuuwskMoj+JrvlE0ga3HFJCaUDBnEtOUggBH6sKXIsUoY5goWE0hEe1TbhskDDWKEyGb2HoP1lCwnkJqK3okkg8p0G6dEPAxW4/BZ8TJxLHCNVjyekwiI1/8uhJgj1B2iBoXYdKZkZHBqFSqomueU0XKGwnTGAcP5/tcoF/AsoMWTOuuhJ/76hJtSga2fhKNGEwI+TheFuBvviIzLtUX4taEpwSggivQ8SdwOhytRDAzM1MIQdy3TU1N9xmGuRej5GmDts9A7TEiTklNTb1SiA+s8j1IODGEHCwbPiDqaCASQldXVz+kAMbFxcUfOjs7B3p7e42lpaV6jUYDaZFPtb+/75qcnFwxGAzF7e3tj9PT04sCgcAs9HeUyMgUNDcX0owDzrPXi5IrCdm7QeB/gxweHtrcbvdrrLrpdDoGq3klJSUmzKfCnS/IZyBfJ4oY8iWoR9RUQOADeeKwe5MYHygna8czrrQhAv7mRLlWkZ6lL+n1C1L950WKFB8/ywpEA36KYlpWELOCgoKCgoKCgoKCIhn4T4ABAO3nvJGLEFE4AAAAAElFTkSuQmCC\"></image>\r\n
+        </g>\r\n</svg>"
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '3253'
+      Content-Type:
+      - image/svg+xml
+      Date:
+      - Wed, 02 Oct 2019 08:13:36 GMT
+      Expires:
+      - '-1'
+      Pragma:
+      - no-cache
+      Server:
+      - Microsoft-IIS/10.0
+      Strict-Transport-Security:
+      - max-age=300
+      X-AspNet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
+version: 1

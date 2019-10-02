@@ -1,0 +1,71 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://apidata.mos.ru/v1/datasets/658/image/70?api_key=7e5b3dd05fbfe77c66a8c356c45eea81
+  response:
+    body:
+      string: !!binary |
+        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
+        rLX9+QAAAABJRU5ErkJggg==
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '1612'
+      Content-Type:
+      - image/png
+      Date:
+      - Wed, 02 Oct 2019 08:06:27 GMT
+      Expires:
+      - '-1'
+      Pragma:
+      - no-cache
+      Server:
+      - Microsoft-IIS/10.0
+      Strict-Transport-Security:
+      - max-age=300
+      X-AspNet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
+version: 1
