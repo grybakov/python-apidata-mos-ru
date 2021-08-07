@@ -12,5 +12,6 @@ pip-selfcheck.json
 /Lib
 .idea/
 env/
+venv/
 .idea
 .DS_Store

@@ -29,7 +29,7 @@ See [tests_methods.py](./tests/test_methods.py)
 
 ## Testing
 
-```pytest tests\test_methods.py```
+```python -m pytest tests/test_methods.py```
 
 ## Requirements
 
